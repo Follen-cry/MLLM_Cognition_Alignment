@@ -1,78 +1,66 @@
 # From Pixels to Feelings: Aligning MLLMs with Human Cognitive Perception
 
-[cite_start]This repository contains the official code and data for **CogIP-Bench** (Cognition Image Property Benchmark) and the associated alignment methods described in the paper *"From Pixels to Feelings: Aligning MLLMs with Human Cognitive Perception of Images"*[cite: 1, 6].
+This repository contains the official code and data for **CogIP-Bench** (Cognition Image Property Benchmark) and the associated alignment methods described in the paper *"From Pixels to Feelings: Aligning MLLMs with Human Cognitive Perception of Images"*.
 
-[cite_start]While Multimodal Large Language Models (MLLMs) excel at identifying "what" is in an image, they often struggle to understand "how" an image feels to a human observer[cite: 4]. This project addresses that gap by evaluating and aligning models on subjective cognitive properties.
+While Multimodal Large Language Models (MLLMs) excel at identifying "what" is in an image, they often struggle to understand "how" an image feels to a human observer. This project addresses that gap by evaluating and aligning models on subjective cognitive properties.
 
 ## 🧠 Project Overview
 
-[cite_start]This framework focuses on four key dimensions of visual cognition[cite: 17, 145]:
+This framework focuses on four key dimensions of visual cognition:
 
-1.  [cite_start]**Aesthetics:** Visual appeal, harmony, and artistic value[cite: 146].
-2.  [cite_start]**Funniness:** Unexpected visual incongruity and humor[cite: 150].
-3.  [cite_start]**Emotional Valence:** The positive or negative emotional tone evoked by the image[cite: 154].
-4.  [cite_start]**Memorability:** How likely an image is to be remembered[cite: 161].
+1. **Aesthetics:** Visual appeal, harmony, and artistic value.
+2. **Funniness:** Unexpected visual incongruity and humor.
+3. **Emotional Valence:** The positive or negative emotional tone evoked by the image.
+4. **Memorability:** How likely an image is to be remembered.
 
 We provide tools for:
-* [cite_start]**Benchmarking:** Evaluating MLLMs (Qwen, Llama, Gemma) against human judgment[cite: 177].
-* [cite_start]**Alignment (SFT):** A training pipeline using **Soft-Label Loss** and a **"Describe-then-Predict"** strategy to teach models subjective cognition[cite: 197, 202].
-* [cite_start]**Generation:** Leveraging the aligned backbone to guide image generation (via Qwen-Image) toward specific cognitive traits[cite: 30].
+* **Benchmarking:** Evaluating MLLMs (Qwen, Llama, Gemma) against human judgment.
+* **Alignment (SFT):** A training pipeline using **Soft-Label Loss** and a **"Describe-then-Predict"** strategy to teach models subjective cognition.
+* **Generation:** Leveraging the aligned backbone to guide image generation (via Qwen-Image) toward specific cognitive traits.
 
 ---
 
 ## 📂 Directory Structure
 
-The repository is organized into four main modules matching the pipeline described in the paper.
+The repository is organized into four main modules matching the workflow described in the paper.
 
 ```text
 MLLM_Cognition_Alignment
 ├── data/                               # Dataset and Ground Truths
 │   └── cognition/
 │       ├── cognition_images/           # Raw image files
-│       ├── cognition_scores/           # Ground truth scores (Aesthetics, Funniness, etc.)
-│       ├── test_msg_file/              # Formatted evaluation files for different models
+│       ├── cognition_scores/           # Ground truth scores across 4 cognition traits
+│       ├── test_msg_file/              # Evaluation message files for models
 │       │   ├── Aesthetics/
 │       │   ├── Emotional_Valence/
 │       │   ├── Funniness/
 │       │   └── Memorability/
-[cite_start]│       ├── cognition_training.json     # SFT Dataset with "Describe-then-Predict" prompts [cite: 198]
-[cite_start]│       └── training_grpo.json          # RL dataset for GRPO experiments 
+│       ├── cognition_training.json     # SFT dataset with Describe-then-Predict prompts
+│       └── training_grpo.json          # RL dataset for GRPO experiments
 │
-[cite_start]├── evaluation/                         # Benchmarking Scripts [cite: 172]
-│   ├── gemma/                          # Eval scripts for Gemma-3 variants
-│   ├── llama/                          # Eval scripts for Llama-3.2-Vision
-│   └── qwen/                           # Eval scripts for Qwen2/2.5-VL
+├── evaluation/                         # Benchmarking Scripts
+│   ├── gemma/
+│   ├── llama/
+│   └── qwen/
 │
-[cite_start]├── qwen-image/                         # Downstream Application: Image Generation [cite: 232]
-│   ├── prompts/                        # Prompts for generating cognition-aligned images
-│   ├── batch_gene_image.py             # Inference script for image generation
-│   └── run_batch.sh                    # Batch execution script
+├── qwen-image/                         # Downstream Application: Image Generation
+│   ├── prompts/
+│   ├── batch_gene_image.py
+│   └── run_batch.sh
 │
-[cite_start]├── sft/                                # Supervised Fine-Tuning Pipeline [cite: 194]
-│   ├── gemma/                          # Training code for Gemma
-│   ├── llama/                          # Training code for Llama
-│   └── qwen/                           # Training code for Qwen
-│       ├── scripts/                    # Launch scripts (Deepspeed/Accelerate)
-│       └── src/                        # Source code for Soft-Label Loss implementation
+├── sft/                                # Supervised Fine-Tuning Pipeline
+│   ├── gemma/
+│   ├── llama/
+│   └── qwen/
+│       ├── scripts/
+│       └── src/
 │
-├── environment.yaml                    # Conda environment setup
+├── environment.yaml                    # Base environment description
 └── requirements.txt                    # Python dependencies
+
 ```
----
-
-## ⚙️ Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/MLLM_Cognition_Alignment.git](https://github.com/your-username/MLLM_Cognition_Alignment.git)
-    cd MLLM_Cognition_Alignment
-    ```
-
-2.  **Create the environment:**
-    ```bash
-    conda env create -f environment.yaml
-    conda activate cognition_align
-    ```
+> **Note:** Installation instructions are module-specific.  
+> Please navigate into each subfolder (e.g., `sft/qwen/`, `evaluation/gemma/`, `qwen-image/`) to find scripts and guidance relevant to that component.
 
 ---
 

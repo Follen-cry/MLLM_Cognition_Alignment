@@ -1,0 +1,1802 @@
+[
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000800.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000801.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000802.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on the following scoring rules:\n\n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n\n**Describe the scores prediction rule (e.g., exact three digits) after asking the model to return the label and the scores number.**  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000803.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000804.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value according to a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000805.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000806.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000807.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000808.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000809.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000810.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000811.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000812.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000813.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000814.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000815.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000816.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000817.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000818.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000819.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000820.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000821.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000822.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000823.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000824.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000825.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000826.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on the following scoring rules:\n\n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n\n**Describe the scores prediction rule (e.g., exact three digits) after asking the model to return the label and the scores number.**  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000827.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value according to a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000828.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value according to a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000829.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000830.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000831.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000832.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000833.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000834.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000835.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000836.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value according to a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000837.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000838.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on the following scoring rules:\n\n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n\n**Describe the scores prediction rule (e.g., exact three digits) after asking the model to return the label and the scores number.**  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000839.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image. Then, predict a numerical score based on the following scoring rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n**Describe the scores prediction rule (e.g., exact three digits) after asking the model to return the label and the scores number.**  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000840.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to provide a descriptive label that captures the overall aesthetic appeal, followed by a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000841.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000842.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value according to a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000843.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to provide a descriptive label that captures the overall aesthetic appeal of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000844.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000845.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your task is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000846.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional impact. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image. Then, based on the defined scoring rules, predict a numerical score that reflects the aesthetic quality.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000847.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000848.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000849.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000850.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000851.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000852.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000853.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on the following scoring rules:\n\n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n\n**Describe the scores prediction rule (e.g., exact three digits) after asking the model to return the label and the scores number.**  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000854.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000855.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000856.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000857.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000858.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on the following scoring rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000859.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000860.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000861.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000862.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000863.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000864.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000865.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000866.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000867.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000868.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000869.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000870.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000871.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000872.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000873.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000874.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000875.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000876.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000877.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000878.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000879.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000880.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000881.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000882.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000883.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000884.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to provide a descriptive label that summarizes the overall aesthetic appeal, followed by a numerical score that reflects the level of aesthetic quality.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000885.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000886.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your task is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000887.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000888.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000889.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000890.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000891.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000892.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on the following scoring rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000893.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000894.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000895.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000896.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000897.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000898.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000899.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000900.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000901.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000902.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000903.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000904.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your task is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000905.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000906.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional impact. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000907.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000908.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by evaluating its visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000909.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000910.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image based on elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on the following scoring rules:\n\n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease first give a description label for the corresponding image, then predict the scores based on the above rules.  \n\n**Describe the scores prediction rule (e.g., exact three digits) after asking the model to return the label and the scores number.**  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000911.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value according to a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000912.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000913.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000914.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000915.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000916.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects its aesthetic value.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000917.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on elements such as visual harmony, composition, color, lighting, and emotional impact. Your task is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score based on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000918.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic quality of the image by considering elements such as visual harmony, composition, color balance, lighting, and emotional resonance. Your task is to first provide a descriptive label that captures the overall aesthetic appeal of the image, and then predict a numerical score based on a predefined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on this scores-label rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image",
+          "image": "Aesthetics/000919.jpg"
+        },
+        {
+          "type": "text",
+          "text": "<image>  \n**Visual Aesthetics Analysis Sub-Task (Aesthetics Evaluation):**  \nIn this sub-task, you are asked to assess the aesthetic appeal of the image based on visual harmony, composition, color, lighting, and emotional impact. Your goal is to provide a descriptive label that captures the overall aesthetic quality of the image, followed by a numerical score that reflects this assessment on a defined scale.\n\nPlease first give a description label for the corresponding image, then predict the scores based on the following rules:  \n- (0.0, 3.5, 'very low')  \n- (3.5, 5.0, 'low')  \n- (5.0, 6.5, 'medium')  \n- (6.5, 8.0, 'high')  \n- (8.0, 10.1, 'very high')  \n\nThe score should be a number with exactly three decimal places (e.g., 7.234).  \n\nPlease return only the label and the scores number, nothing else."
+        }
+      ]
+    }
+  ]
+]

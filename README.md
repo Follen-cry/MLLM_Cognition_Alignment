@@ -104,6 +104,7 @@ bash cog_test.sh
 
 This module demonstrates the **transferability of cognitive alignment**. It uses the SFT-aligned MLLM as the backbone for the Qwen-Image pipeline to generate images with specific emotional or aesthetic qualities.
 
+[Model Weight](https://huggingface.co/foolen/qwen2.5-vl-7b-cognition-full-sft) is provided (HuggingFace).
 ```bash
 cd qwen-image
 bash run_batch.sh

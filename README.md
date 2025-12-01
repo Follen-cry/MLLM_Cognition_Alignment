@@ -123,3 +123,17 @@ For each pair:
 
 * **Describe-then-Predict:** We force the model to first generate a **descriptive label** (e.g., "very high aesthetic") before predicting the float score. This leverages the LLM's reasoning capabilities.
 * **Soft-Label Loss:** Standard Cross-Entropy treats numbers as independent tokens. We implement a **soft-label distribution (triangular function)** to preserve numerical relationships during training, ensuring the model is penalized proportionally to the distance from the ground truth score.
+
+---
+
+## Citation
+```bibtex
+@misc{chen2025pixelsfeelingsaligningmllms,
+      title={From Pixels to Feelings: Aligning MLLMs with Human Cognitive Perception of Images}, 
+      author={Yiming Chen and Junlin Han and Tianyi Bai and Shengbang Tong and Filippos Kokkinos and Philip Torr},
+      year={2025},
+      eprint={2511.22805},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.22805}, 
+}

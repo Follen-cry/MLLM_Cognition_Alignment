@@ -4,6 +4,8 @@ This repository contains the official code and data for **CogIP-Bench** (Cogniti
 
 While Multimodal Large Language Models (MLLMs) excel at identifying "what" is in an image, they often struggle to understand "how" an image feels to a human observer. This project addresses that gap by evaluating and aligning models on subjective cognitive properties.
 
+[Project Page](https://follen-cry.github.io/MLLM-Cognition-project-page/)
+
 ## 🧠 Project Overview
 <img width="1100" height="590" alt="8fbca76d6c9e84a46ebf8f4ae850c900" src="https://github.com/user-attachments/assets/f11b6e93-c95a-478a-a217-f6942f9b3e4b" />
 
